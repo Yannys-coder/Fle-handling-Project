@@ -1,0 +1,12 @@
+file = open("TopSecret.txt", "r")
+print("Reading first line..")
+print(file.readline())
+file.close()
+
+file = open("TopSecret.txt", "r")
+print("Reading first 4 lines")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
